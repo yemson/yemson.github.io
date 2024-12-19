@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "MonoplexKR-Regular";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2")
+        format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
     filter: invert(1);
@@ -35,7 +43,7 @@ html {
 
 body {
     color: black;
-    font-family: "IBM Plex Sans KR", monospace;
+    font-family: "MonoplexKR-Regular", monospace;
     font-size: 16px;
     line-height: 1.4;
     margin: 0;
